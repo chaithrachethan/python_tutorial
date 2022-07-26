@@ -24,7 +24,3 @@ Car.wheels = 20
 
 Vehicle.something()
 
-
-
-
-
