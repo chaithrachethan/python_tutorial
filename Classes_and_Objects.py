@@ -1,26 +1,17 @@
 class Vehicle:
 	drive = True
-	def __init__(self, wheels, seat):
-		self.wheels = wheels
-		self.seat = seat
+	def __init__(self, w, s, x, u, t, r):
+		self.wheels = w
+		self.seat = 200
 
 	def prints(self):
-		print(self.wheels)
-		print(self.seat)
+		self.road = 40
+		print(self.road, self.wheels, self.seat)
 
-	def something():
-		print("ok")
+	def something(self):
+		print("ok", self.road)
 
 
-
-Car = Vehicle(4, 5)
-Bus = Vehicle(6, 20)
-Bycycle = Vehicle(2, 1)
-
-Car.wheels = 20
-# Car.prints()
-# Instantiation
-# Car is a Instance of Vehicle
-
-Vehicle.something()
-
+Car = Vehicle(20, 4,0,0,0,0)
+Car.road = 100
+Car.prints()
