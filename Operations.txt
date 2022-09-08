@@ -1,0 +1,52 @@
+#assignment
+a = 10
+
+#arithmatic
+a = a + 10
+a = a - 10
+a = a * 10
+a = a / 10
+a = a // 10	#Floor
+a = a % 10 # Modulus
+a = a ** 10	# a power 10
+
+#comparisions
+output = a > b
+output = a >= b
+output = a < b
+output = a <= b
+output = a == b
+output = a != b
+
+
+#logical
+output =    a or b
+		  # T    T   > T
+		  # T    F   > T
+		  # F    T   > T
+		  # F    F   > F
+output =  a and b
+		  # T    T   > T
+		  # T    F   > F
+		  # F    T   > F
+		  # F    F   > F
+
+output =  not a
+# is ==> Identity 
+# in ==> membership
+
+
+#bitwise operators
+	5 => 0101 & 1010 ==> 0000
+
+a = a & b
+a = a | b
+a = a >> 3
+a = a << 3
+a =   a ^  b
+	# T    T   > F
+	# F    T   > T
+	# T    F   > T
+	# F    F   > F
+
+a = ~a

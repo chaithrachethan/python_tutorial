@@ -53,7 +53,17 @@ print(x[1][2][1])
 
 
 
+set()				=> {}	mutable, unique, unordered
+tuple() 			=> ()	immutable, duplicates, ordered
+list() 				=> []	mutable, duplicates, ordered
 
+dictionary
+{
+		"Name": "Sachin",
+		"Age": 18.2,
+		"Branch": "Sachin",
+		"Class": "Sachin",
+}
 
 
 

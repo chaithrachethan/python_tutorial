@@ -1,38 +1,63 @@
-# Loops can be applied on sequences
-# string, set, list, touple, dictionary and range
+student = {
+	"Name":{
+			"First_Name":"Mahindra",
+			"Last_Name":"Dhoni"
+		},
+	"Branch":"ECE",
+	"Batch":2020
+	}
 
-sentence = "today is a good day"
-
-#for loop
-
-# for index, charecter in enumerate(sentence.split(' ')):
-# 	print('At index {} we have value {}'.format(index, charecter))
+# for k, v in student.items():
+# 	print(k,v)
 
 
-# student = {
-# 	"Name": "Safan",
-# 	"Branch":"EEE",
-# 	"Batch":2020
-# }
 
-# for key, value in student.items():
-# 	print(student.get(key))
+list_float = [1.2, 2.3, 4.3, 5.7]
 
-# print(student.values())
+# list_integers = []
+# for i in list_float:
+# 	if i > 2: 
+# 		list_integers.append(int(i))
 
+
+#list_integers = [int(i) for i in list_float if i > 2]
+#print(list_integers)
+
+
+# count = 0
+# print("Break statement ===> ")
 # for i in range(1,10):
-# 	print(i)
+# 	if i == 3:
+# 		break
+# 	print("That value of i is {}".format(i))
 
 
-output = [i for i in range(1,10) if i%2==0]
-print(output)
+# print("\n\npass statement ===>")
+# for i in range(1,10):
+# 	if i == 3:
+# 		pass
+# 	print("That value of i is {}".format(i))
 
 
-output2 = ["even" if i%2==0 else "odd" for i in range(1,10)]
-print(output2)
 
-x = 200
-while (x>10):
-	print(x)
-	x -= 50
+# print("\n\ncontinue statement ===>")
+# for i in range(11,10):
+# 	if i == 3:
+# 		continue
+# 	print("That value of i is {}".format(i))
+# else:
+#     print("I is not within the rage")
 
+
+# print(i)
+
+
+# i = 0
+# x = True
+# while (x):
+#     i = i + 1
+#     print("The value of i is {}".format(i))
+#     if i == 3:
+#         x = False
+# else:
+#     print("the value x is no more True")

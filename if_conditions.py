@@ -4,15 +4,13 @@
 # is ==> Identity
 # in ==> membership
 
-a = "20 is a number"
-b = 0
-c = 40
+a = 30
+b = 20
+c = 35
 
-if "20" in a and isinstance(a, str) :
-	print(isinstance(a, int) )
-
-elif b:
-	print(b)
-
-elif c:
-	print(c)
+if a > b and a > c:
+    print("A is greatest")
+elif b > a and b > c:
+    print("B is greatest")
+else:
+    print("C is greatest")
